@@ -9,11 +9,11 @@ Deployed app can be found at [https://todo-app-c98c5.firebaseapp.com](https://to
 
 # User stories
 
-* [ ] As a doer, I want to see a title bar so I know this is my list
+* [x] As a doer, I want to see a title bar so I know this is my list
     * [x] Top bar exists
     * [x] List owner is displayed
-    * [ ] Can log in if logged out
-    * [ ] Can log out if logged in
+    * [x] Can log in if logged out
+    * [x] Can log out if logged in
 * [ ] As a doer, I want to know what to work on for my work
     * [ ] Display company name during normal working times
     * [ ] Display list of items to work on
