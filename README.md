@@ -8,7 +8,7 @@ This is part three of a three part todo system. Part one is the collection of id
 # User stories
 
 * [ ] As a doer, I want to see a title bar so I know this is my list
-    * [ ] Top bar exists
+    * [x] Top bar exists
     * [ ] List owner is displayed
     * [ ] Can log in if logged out
     * [ ] Can log out if logged in
