@@ -5,11 +5,13 @@ The general idea is that I want to spend as little amount of time thinking about
 
 This is part three of a three part todo system. Part one is the collection of ideas into an inbox. Part two is processing the inbox and preparing the list. Part three here is for displaying what to work on and marking the items as finished or not.
 
+Deployed app can be found at [https://todo-app-c98c5.firebaseapp.com](https://todo-app-c98c5.firebaseapp.com)
+
 # User stories
 
 * [ ] As a doer, I want to see a title bar so I know this is my list
     * [x] Top bar exists
-    * [ ] List owner is displayed
+    * [x] List owner is displayed
     * [ ] Can log in if logged out
     * [ ] Can log out if logged in
 * [ ] As a doer, I want to know what to work on for my work

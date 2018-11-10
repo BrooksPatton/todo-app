@@ -17,3 +17,7 @@ nav {
     font-family: 'Courgette', cursive;
     font-size: 2rem;
 }
+
+nav span {
+    color: aquamarine;
+}
