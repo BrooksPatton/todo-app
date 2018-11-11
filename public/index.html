@@ -26,8 +26,15 @@
         </div>
       </div>
     </section>
-    <section class="personal">
+    <section class="personal" property="personal">
       <h1>Personal</h1>
+      <div class="todo-items" mv-multiple="todo-list">
+          <div mv-if="id < 3">
+            <div>
+              <input type="checkbox"> <span property="task"></span>
+            </div>
+            <p property="why"></p>
+          </div>
     </section>
   </main>
 </body>

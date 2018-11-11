@@ -20,11 +20,11 @@ Deployed app can be found at [https://todo-app-c98c5.firebaseapp.com](https://to
     * [x] Display why I want to work on each item
     * [x] Only three items are displayed
     * [x] Section disapears outside of normal working times
-* [ ] As a doer, I want to know what to work on for my personal life
+* [x] As a doer, I want to know what to work on for my personal life
     * [x] Display personal section
-    * [ ] Display task names
-    * [ ] Display task descriptions
-    * [ ] Only three tasks are displayed
+    * [x] Display task names
+    * [x] Display task descriptions
+    * [x] Only three tasks are displayed
 * [ ] As a doer, I want to complete items
     * [ ] When the checkbox is checked, cross out the task
     * [ ] When a checkbox is unchecked, uncross out the task

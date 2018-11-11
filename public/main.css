@@ -31,15 +31,15 @@ main h1 {
     border-bottom: 1px solid black;
 }
 
-.company .todo-items {
+main .todo-items {
     margin-top: 1rem;
     font-size: 1.3rem;
 }
-.company .todo-items span {
+main .todo-items span {
     padding-left: 1rem;
 }
 
-.company .todo-items p {
+main .todo-items p {
     padding-left: 4rem;
     font-style: italic;
 }
