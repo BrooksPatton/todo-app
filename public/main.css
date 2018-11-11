@@ -23,10 +23,23 @@ nav span {
 }
 
 .company {
-    border-bottom: 1px solid black;
     margin: 1rem;
 }
 
 .company h1 {
     font-size: 2rem;
+    border-bottom: 1px solid black;
+}
+
+.company .todo-items {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+.company .todo-items span {
+    padding-left: 1rem;
+}
+
+.company .todo-items p {
+    padding-left: 4rem;
+    font-style: italic;
 }

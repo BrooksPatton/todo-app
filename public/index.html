@@ -10,13 +10,19 @@
   <link rel="stylesheet" href="https://get.mavo.io/mavo.css">
   <link rel="stylesheet" href="/main.css">
 </head>
-<body mv-app="todo-app" mv-storage="https://www.dropbox.com/s/nw3hcftny20b8xw/todo-app.json?dl=0">
+<body mv-app="todo-app" mv-storage="https://www.dropbox.com/s/7enyk1j7gntr8fw/todo-app.json?dl=0">
   <nav>
     <p>Power Hour for <span property="list-owner"></span></p>
   </nav>
   <main>
-    <section class="company" property="company" mv-if="hour('09:00') < hour($now) && hour('18:00') > hour($now)">
+    <section class="company" property="company" mv-if="hour('09:00') < hour($now) && hour('19:00') > hour($now)">
       <h1 property="name"></h1>
+      <div class="todo-items" mv-multiple="todo-list">
+        <div>
+          <input type="checkbox"> <span property="task"></span>
+        </div>
+        <p property="why"></p>
+      </div>
     </section>
   </main>
 </body>
