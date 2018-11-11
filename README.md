@@ -15,7 +15,7 @@ Deployed app can be found at [https://todo-app-c98c5.firebaseapp.com](https://to
     * [x] Can log in if logged out
     * [x] Can log out if logged in
 * [ ] As a doer, I want to know what to work on for my work
-    * [ ] Display company name during normal working times
+    * [x] Display company name during normal working times
     * [ ] Display list of items to work on
     * [ ] Display why I want to work on each item
     * [ ] Only three items are displayed

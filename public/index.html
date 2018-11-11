@@ -14,5 +14,10 @@
   <nav>
     <p>Power Hour for <span property="list-owner"></span></p>
   </nav>
+  <main>
+    <section class="company" property="company" mv-if="hour('09:00') < hour($now) && hour('18:00') > hour($now)">
+      <h1 property="name"></h1>
+    </section>
+  </main>
 </body>
 </html>

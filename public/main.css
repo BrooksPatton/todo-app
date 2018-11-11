@@ -21,3 +21,12 @@ nav {
 nav span {
     color: aquamarine;
 }
+
+.company {
+    border-bottom: 1px solid black;
+    margin: 1rem;
+}
+
+.company h1 {
+    font-size: 2rem;
+}
