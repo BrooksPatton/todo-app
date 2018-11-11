@@ -14,12 +14,12 @@ Deployed app can be found at [https://todo-app-c98c5.firebaseapp.com](https://to
     * [x] List owner is displayed
     * [x] Can log in if logged out
     * [x] Can log out if logged in
-* [ ] As a doer, I want to know what to work on for my work
+* [x] As a doer, I want to know what to work on for my work
     * [x] Display company name during normal working times
     * [x] Display list of items to work on
-    * [ ] Display why I want to work on each item
-    * [ ] Only three items are displayed
-    * [ ] Section disapears outside of normal working times
+    * [x] Display why I want to work on each item
+    * [x] Only three items are displayed
+    * [x] Section disapears outside of normal working times
 * [ ] As a doer, I want to know what to work on for my personal life
     * [ ] Display personal section
     * [ ] Display task names

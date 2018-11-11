@@ -15,13 +15,15 @@
     <p>Power Hour for <span property="list-owner"></span></p>
   </nav>
   <main>
-    <section class="company" property="company" mv-if="hour('09:00') < hour($now) && hour('19:00') > hour($now)">
+    <section class="company" property="company" mv-if="hour('09:00') < hour($now) && hour('17:00') > hour($now)">
       <h1 property="name"></h1>
       <div class="todo-items" mv-multiple="todo-list">
-        <div>
-          <input type="checkbox"> <span property="task"></span>
+        <div mv-if="id < 3">
+          <div>
+            <input type="checkbox"> <span property="task"></span>
+          </div>
+          <p property="why"></p>
         </div>
-        <p property="why"></p>
       </div>
     </section>
   </main>
