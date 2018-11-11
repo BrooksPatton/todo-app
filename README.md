@@ -21,7 +21,7 @@ Deployed app can be found at [https://todo-app-c98c5.firebaseapp.com](https://to
     * [x] Only three items are displayed
     * [x] Section disapears outside of normal working times
 * [ ] As a doer, I want to know what to work on for my personal life
-    * [ ] Display personal section
+    * [x] Display personal section
     * [ ] Display task names
     * [ ] Display task descriptions
     * [ ] Only three tasks are displayed

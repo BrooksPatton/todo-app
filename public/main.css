@@ -22,11 +22,11 @@ nav span {
     color: aquamarine;
 }
 
-.company {
+main section {
     margin: 1rem;
 }
 
-.company h1 {
+main h1 {
     font-size: 2rem;
     border-bottom: 1px solid black;
 }
