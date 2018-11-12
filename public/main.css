@@ -31,6 +31,20 @@ main h1 {
     border-bottom: 1px solid black;
 }
 
+main h2 {
+    font-size: 1.3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+h2.deadline {
+    color: orchid;
+}
+
+h2.normal {
+    color: blueviolet;
+}
+
 main .todo-items {
     margin-top: 1rem;
     font-size: 1.3rem;

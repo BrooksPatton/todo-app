@@ -18,6 +18,14 @@
   <main>
     <section class="company" property="company" mv-if="hour('09:00') < hour($now) && hour('17:00') > hour($now)">
       <h1 property="name"></h1>
+      <h2 class="deadline">Deadline is today!</h2>
+      <div class="todo-items" mv-multiple="deadline-todo-list">
+        <div>
+          <input type="checkbox" property="checked"> <span property="task"></span>
+          <p property="why"></p>
+        </div>
+      </div>
+      <h2 class="normal">Tasks to work on</h2>
       <div class="showing-tasks-count">Number of tasks to show <input type="number" property="companyItemsToShow" mv-value="3" min="0"></div>
       <div class="todo-items" mv-multiple="todo-list">
         <div mv-if="id < Number([companyItemsToShow])">
@@ -30,13 +38,20 @@
     </section>
     <section class="personal" property="personal">
       <h1>Personal</h1>
+      <h2 class="deadline">Deadline is today!</h2>
+      <div class="todo-items" mv-multiple="deadline-todo-list">
+        <div>
+          <input type="checkbox" property="checked"> <span property="task"></span>
+          <p property="why"></p>
+        </div>
+      </div>
+      <h2 class="normal">Tasks to work on</h2>
       <div class="showing-tasks-count">Number of tasks to show <input type="number" property="personalItemsToShow" mv-value="3" min="0"></div>
       <div class="todo-items" mv-multiple="todo-list">
         <div mv-if="id < Number([personalItemsToShow])">
           <div>
             <input type="checkbox" property="checked"> <span property="task"></span>
             <p property="why"></p>
-            <div property="completed"></div>
           </div>
         </div>
         <div mv-property="count(get(todo-list, 'completed=true'))">
