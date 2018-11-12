@@ -25,8 +25,8 @@ Deployed app can be found at [https://todo-app-c98c5.firebaseapp.com](https://to
     * [x] Display task names
     * [x] Display task descriptions
     * [x] Only three tasks are displayed
-* [ ] As a doer, I want to complete items
-    * [ ] When the checkbox is checked, cross out the task
-    * [ ] When a checkbox is unchecked, uncross out the task
-    * [ ] After last item is checked in a group, show the next item
-    * [ ] Immediately update the data, no save button click needed
+* [x] As a doer, I want to complete items
+    * [x] When the checkbox is checked, cross out the task
+    * [x] When a checkbox is unchecked, uncross out the task
+    * [x] Have a way to show more or less items if desired
+    * [x] Immediately update the data, no save button click needed

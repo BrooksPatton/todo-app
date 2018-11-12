@@ -7,34 +7,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <script src="https://get.mavo.io/mavo.js"></script>
+  <script src="/mavo-addchecked.js"></script>
   <link rel="stylesheet" href="https://get.mavo.io/mavo.css">
   <link rel="stylesheet" href="/main.css">
 </head>
-<body mv-app="todo-app" mv-storage="https://www.dropbox.com/s/7enyk1j7gntr8fw/todo-app.json?dl=0">
+<body mv-app="todo-app" mv-storage="https://www.dropbox.com/s/7enyk1j7gntr8fw/todo-app-demo-data.json?dl=0" mv-autosave="3">
   <nav>
     <p>Power Hour for <span property="list-owner"></span></p>
   </nav>
   <main>
     <section class="company" property="company" mv-if="hour('09:00') < hour($now) && hour('17:00') > hour($now)">
       <h1 property="name"></h1>
+      <div class="showing-tasks-count">Number of tasks to show <input type="number" property="companyItemsToShow" mv-value="3" min="0"></div>
       <div class="todo-items" mv-multiple="todo-list">
-        <div mv-if="id < 3">
+        <div mv-if="id < Number([companyItemsToShow])">
           <div>
-            <input type="checkbox"> <span property="task"></span>
+            <input type="checkbox" [checked]> <span property="task"></span>
+            <p property="why"></p>
           </div>
-          <p property="why"></p>
         </div>
       </div>
     </section>
     <section class="personal" property="personal">
       <h1>Personal</h1>
+      <div class="showing-tasks-count">Number of tasks to show <input type="number" property="personalItemsToShow" mv-value="3" min="0"></div>
       <div class="todo-items" mv-multiple="todo-list">
-          <div mv-if="id < 3">
-            <div>
-              <input type="checkbox"> <span property="task"></span>
-            </div>
+        <div mv-if="id < Number([personalItemsToShow])">
+          <div>
+            <input type="checkbox" property="checked"> <span property="task"></span>
             <p property="why"></p>
+            <div property="completed"></div>
           </div>
+        </div>
+        <div mv-property="count(get(todo-list, 'completed=true'))">
+        </div>
     </section>
   </main>
 </body>

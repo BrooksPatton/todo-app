@@ -43,3 +43,11 @@ main .todo-items p {
     padding-left: 4rem;
     font-style: italic;
 }
+
+input:checked ~ span, input:checked ~ p {
+    text-decoration-line: line-through;
+}
+
+.showing-tasks-count {
+    font-size: 1.3rem;
+}
