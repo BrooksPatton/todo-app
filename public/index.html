@@ -15,7 +15,7 @@
   <nav>
     <p>Power Hour for <span property="list-owner"></span></p>
   </nav>
-  <main>
+  <main mv-if="shouldShow([$now])">
     <section class="company" property="company" mv-if="hour('09:00') < hour($now) && hour('17:00') > hour($now)">
       <h1 property="name"></h1>
       <h2 class="deadline">Deadline is today!</h2>
